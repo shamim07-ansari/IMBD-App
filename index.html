@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>IMDB Movie</title>
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+        <div class="header-title">
+          <h1>IMDB MOVIE APP</h1>
+        </div>
+        <div class="input-div">
+          <div class="api-input">
+            <input type="text" placeholder="API_KEY" id="apiInput" required />
+            <img src="./assets/key 1.svg" alt="Key Symbol" />
+          </div>
+          <div class="movie-input">
+            <input type="text" placeholder="search" id="SearchInput" required />
+            <img src="./assets/Search.svg" alt="search symbol" />
+          </div>
+        </div>
+        <div class="loader">Loading...</div>
+        <div class="posters-div">
+          <div class="type-js headline">
+            <h1 class="text-js">Search with Movie name, genre ect..</h1>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
